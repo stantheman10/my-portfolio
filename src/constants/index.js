@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {shopify} from "../assets/images";
 import {
     car,
     c,
@@ -24,10 +24,12 @@ import {
     react,
     redux,
     sass,
+    scissors,
     snapgram,
     summiz,
     tailwindcss,
     threads,
+    todo,
     typescript
 } from "../assets/icons";
 
@@ -153,58 +155,7 @@ export const experiences = [
 
 
     },
-    // {
-    //     title: "React.js Developer",
-    //     company_name: "Starbucks",
-    //     icon: starbucks,
-    //     iconBg: "#accbe1",
-    //     date: "March 2020 - April 2021",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "React Native Developer",
-    //     company_name: "Tesla",
-    //     icon: tesla,
-    //     iconBg: "#fbc3bc",
-    //     date: "Jan 2021 - Feb 2022",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "Web Developer",
-    //     company_name: "Shopify",
-    //     icon: shopify,
-    //     iconBg: "#b7e4c7",
-    //     date: "Jan 2022 - Jan 2023",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#a2d2ff",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+    
 ];
 
 export const socialLinks = [
@@ -213,11 +164,11 @@ export const socialLinks = [
         iconUrl: contact,
         link: '/contact',
     },
-    // {
-    //     name: 'GitHub',
-    //     iconUrl: github,
-    //     link: 'https://github.com/YourGitHubUsername',
-    // },
+    {
+        name: 'GitHub',
+        iconUrl: github,
+        link: 'https://github.com/stantheman10',
+    },
     // {
     //     name: 'LinkedIn',
     //     iconUrl: linkedin,
@@ -231,22 +182,22 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'HangMan and Snake Eater Game',
         description: 'Developed a web application that allows user to play two games, Hangman and Snake Eater',
-        link: 'http://stanriccardozo-games1.infinityfreeapp.com/',
+        link: 'https://github.com/stantheman10/hangman-snake-project',
     },
-    // {
-    //     iconUrl: threads,
-    //     theme: 'btn-back-green',
-    //     name: 'Full Stack Threads Clone',
-    //     description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    //     link: 'https://github.com/adrianhajdin/threads',
-    // },
-    // {
-    //     iconUrl: car,
-    //     theme: 'btn-back-blue',
-    //     name: 'Car Finding App',
-    //     description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    //     link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    // },
+    {
+        iconUrl: todo,
+        theme: 'btn-back-green',
+        name: 'Simple To-Do Application',
+        description: 'Using Browser Storage , a web application to log in your daily tasks for the day.',
+        link: 'https://github.com/stantheman10/to-do-list',
+    },
+    {
+        iconUrl: scissors,
+        theme: 'btn-back-blue',
+        name: 'Local Multiplayer Rock Paper Scissors Game',
+        description: 'a real-time multiplayer game where users can create private rooms and play with friends using React, Node.js, and Socket.io.',
+        link: 'https://github.com/stantheman10/rock-paper-scissors',
+    },
     // {
     //     iconUrl: snapgram,
     //     theme: 'btn-back-pink',

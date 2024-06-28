@@ -31,6 +31,8 @@ import c from "./c.svg"
 import cpp from "./cpp.svg"
 import java from "./java.svg"
 import gameController from "./gameController.png"
+import todo from "./todo.png"
+import scissors from "./scissors.png"
 
 export {
     css,
@@ -52,6 +54,7 @@ export {
     redux,
     sass,
     tailwindcss,
+    todo,
     typescript,
     linkedin,
     twitter,
@@ -59,6 +62,7 @@ export {
     estate,
     pricewise,
     python,
+    scissors,
     snapgram,
     summiz,
     threads,
